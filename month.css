@@ -1,0 +1,13 @@
+.months{
+    background-color: rgb(245, 246, 247);
+    color: rgb(31, 10, 151);
+    height: 50px;
+    width: 60px;
+    font-size: large;
+}
+.mon{
+    background-color: rgb(192, 222, 252);
+    color: rgb(31, 10, 151);
+    height: 60px;
+    width: 80px;
+}

@@ -1,0 +1,101 @@
+ul.topnav {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color:#d12bfa;
+    width: 70%;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:large;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: rgb(253, 69, 238);}
+
+ul.topnav li a.active {background-color: rgb(111, 15, 124);}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+.box{
+    background-color: #37b3e4;
+    height: 100vh;
+    width: 40rem;
+    border-radius: 10px;
+    /* position: relative; */
+    top: 80px;
+    left: 40%;
+    margin-left: 300px;
+ 
+}
+
+.keys{
+    position: relative;
+    top: 15px;
+}
+.button{
+    width: 50px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    margin: 17px;
+    cursor: pointer;
+    border-top: 3px solid transparent;
+    font-size: large;
+
+}
+.button.black{
+    color: white;
+    background-color: #1a17a5;
+    border-bottom: black 3px solid;
+    border-top: 2px 303030 solid;
+}
+.black:active{
+    border-top: rgb(9, 34, 143) 3px solid;
+    border-bottom: #303030 3px solid;
+}
+.button.red{
+    color: black;
+    background-color: rgb(86, 74, 248);
+    border-bottom: black 3px solid;
+
+}
+.red:active{
+    border-top: black 3px solid;
+    border-bottom: rgb(0, 81, 255);
+}
+.button.orange{
+    color: black;
+    background-color: #5ff823;
+    border-bottom: black 3px solid;
+    border-top: 3px #c2ff33 solid;
+
+}
+.orange:active{
+    border-top: black 3px solid;
+    border-bottom: #c2ff33 3px solid;
+}
+.button.pink{
+    color: black;
+    background-color: #80ff45;
+    border-bottom: black 3px solid;
+
+}
+.pink:active{
+    border-top: black 3px solid;
+    border-bottom: #5bff45;
+}
+.keys p{
+    line-height: 10px;
+}
